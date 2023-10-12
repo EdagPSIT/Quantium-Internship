@@ -25,5 +25,6 @@ df['Sales'] = df['quantity'] * df['price']
 # Keeping only columns for study
 df = df[['Sales','date','region']]
 
-
+# Saving file to csv
+df.to_csv('merged_sales_data.csv')
 print(df.head())
