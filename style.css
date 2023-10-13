@@ -1,0 +1,48 @@
+/* styles.css */
+/* Center the title */
+h1 {
+    text-align: center;
+}
+
+/* Add space between radio buttons */
+.dash-radio-items input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Increase the height of the figure */
+#sales_graph {
+    height: 500px;
+}
+
+/* Set color patterns for the line chart */
+.plotly-graph {
+    background-color: #f0f0f0;
+}
+
+.line-0 {
+    fill: tozeroy;
+    fillcolor: rgba(51, 122, 183, 0.3);
+    line: 1px;
+    stroke: rgba(51, 122, 183, 1);
+}
+
+.line-1 {
+    fill: tozeroy;
+    fillcolor: rgba(255, 127, 14, 0.3);
+    line: 1px;
+    stroke: rgba(255, 127, 14, 1);
+}
+
+.line-2 {
+    fill: tozeroy;
+    fillcolor: rgba(44, 160, 44, 0.3);
+    line: 1px;
+    stroke: rgba(44, 160, 44, 1);
+}
+
+.line-3 {
+    fill: tozeroy;
+    fillcolor: rgba(214, 39, 40, 0.3);
+    line: 1px;
+    stroke: rgba(214, 39, 40, 1);
+}
